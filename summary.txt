@@ -1,0 +1,14 @@
+Total number of tests: 15
+Number of passed tests: 7
+Number of failed tests: 6
+Number of skipped tests: 2
+Percentage of passed tests: 46.7%
+Total duration of all tests: 20.02 seconds
+Average duration of tests: 1.33 seconds
+Failed test names:
+  - test_login_invalid_password
+  - test_signup_duplicate_email
+  - test_password_reset_invalid_token
+  - test_delete_account
+  - test_checkout_flow
+  - test_api_rate_limit
