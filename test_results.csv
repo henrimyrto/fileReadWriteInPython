@@ -1,0 +1,16 @@
+test_id,test_name,status,duration_seconds,tester
+1,test_login_success,passed,1.23,alice
+2,test_login_invalid_password,failed,0.98,bob
+3,test_logout,passed,0.45,alice
+4,test_signup_new_user,PASSED,2.10,charlie
+5,test_signup_duplicate_email,Failed,1.75,bob
+6,test_password_reset,passed,,alice
+7,test_password_reset_invalid_token,failed,0.67,dave
+8,test_profile_update,skipped,0.00,charlie
+9,test_profile_picture_upload,passed,3.42,
+10,test_delete_account,failed,1.10,bob
+11,test_search_basic,passed,0.55,alice
+12,test_search_no_results,Passed,0.60,dave
+13,test_checkout_flow,failed,4.87,charlie
+14,test_checkout_empty_cart,skipped,0.00,bob
+15,test_api_rate_limit,FAILED,2.30,dave
